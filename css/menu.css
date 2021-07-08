@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+body{
+	width:100%;
+	height:100%;
+	background-image: url("../img/bg.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+
+}
+audio{
+	visibility: hidden;
+}
+.a1{
+	position:absolute;
+}
+.a1img{
+	position:absolute;
+	right:-955px;
+	bottom:-675px;
+}
+.a2{
+	width:250px;
+	position:absolute;
+	right:250px;
+	bottom:500px;
+
+}
+.a1img:hover{
+	transform: scale(1.1,1.1);
+	transition:1s;
+}
+.a1:hover .guide{
+	display: block;
+}
+.menutitle{
+	float:right;
+	width:250px;
+	position:absolute;
+	right:120px;
+	bottom:425px;
+	font-style: italic;
+	font-family:Monotype Corsiva;
+	font-size:120px;
+	color:#663525;
+	text-shadow:-1px -1px #9E7948,1px 1px #333;
+	
+}
+.a3{
+	width:500;
+	position: absolute;
+	right:500px;
+	bottom:260px;
+	
+}
+.guide{
+	display:none;
+	width:280px;
+	position: absolute;
+	right:-925px;
+	bottom:-190px;
+	font-family:方正姚体;
+	font-size:27px;
+}
+.hog01{
+    display:none;
+	width:300px;
+	position: absolute;
+	right:585px;
+	bottom:425px;
+	font-family:方正姚体;
+	font-size:18px;
+}
+.b1:hover .hog01{
+	display:block;
+}
+.hog{
+	position:absolute;
+	right:1225px;
+	bottom:475px;
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:visited{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	text-decoration:underline;
+	color:black;
+}
+a:active{
+	text-decoration:underline;
+	color:black; 
+}
+.hog:hover{
+	transition:all 200ms ease-in;
+	transform:scale(1.1);
+}
+.load{
+	position:absolute;
+    right:950px;
+	bottom:250px;
+}
+.load01{
+	display:none;
+	width:280px;
+	position: absolute;
+	right:605px;
+	bottom:450px;
+	font-family:方正姚体;
+	font-size:18px;
+}
+.load:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.b2:hover .load01{
+	display: block;
+}
+.home{
+	position:absolute;
+	right:1225px;
+	bottom:35px;
+}
+.home01{
+    display:none; 
+	width:280px;
+	position: absolute;
+	right:605px;
+	bottom:460px;
+	font-family:方正姚体;
+	font-size:20px;
+}
+.b3:hover .home01{
+	display:block;
+}
+.home:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.aka{
+	position:absolute;
+	right:75px;
+	bottom:275px;
+}
+.aka:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.aka01{
+	display:none; 
+    width:280px;
+	position: absolute;
+	right:605px;
+	bottom:445px;
+	font-family:方正姚体;
+	font-size:20px;
+}
+.b4:hover .aka01{
+	display:block;
+}
+.mofabu{
+	position:absolute;
+	right:225px;
+	bottom:250px;
+}
+.mofabu:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.mofabu01{
+    display:none; 
+    width:280px;
+	position: absolute;
+	right:605px;
+	bottom:445px;
+	font-family:方正姚体;
+	font-size:18px;
+}
+.b5:hover .mofabu01{
+	display:block;
+}
+.nine{
+	position:absolute;
+	right:980px;
+	bottom: 500px;
+}
+.nine:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.nine01{
+	display:none; 
+	width:280px;
+	position: absolute;
+	right:605px;
+	bottom:450px;
+	font-family:方正姚体;
+	font-size:18px;
+}
+.b6:hover .nine01{
+	display:block; 
+}
+.nvzhen{
+	position:absolute;
+	bottom:325px;
+	right:1275px;
+}
+.nvzhen:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.nvzhen01{
+	display:none; 
+	width:280px;
+	position: absolute;
+	right:605px;
+	bottom:435px;
+	font-family:方正姚体;
+	font-size:18px;
+}
+.b7:hover .nvzhen01{
+	display:block; 
+}
+.sqaue{
+	position:absolute;
+	right:975px;
+	bottom:75px;
+}
+.sqaue:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.sqaue01{
+	display:none; 
+	width:280px;
+	position: absolute;
+	right:605px;
+	bottom:435px;
+	font-family:方正姚体;
+	font-size:18px;
+}
+.b8:hover .sqaue01{
+	display:block;
+}
+.marfo{
+	position:absolute;
+	right:100px;
+	bottom:20px;
+}
+.marfo:hover{
+	transition: all 200ms ease-in;
+	transform: scale(1.1);
+}
+.marfo01{
+	display:none; 
+	width:280px;
+	position: absolute;
+	right:605px;
+	bottom:465px;
+	font-family:方正姚体;
+	font-size:20px;
+}
+.b9:hover .marfo01{
+	display:block;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+body{
+	width:100%;
+	height:100%;
+	background-image: url("../img/hog02.png");
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+
+}
+audio{
+	visibility: hidden;
+}
+@keyframes fade-in {  
+    0% {opacity: 0;}/*初始状态 透明度为0*/  
+    40% {opacity: 0;}/*过渡状态 透明度为0*/  
+    100% {opacity: 1;}/*结束状态 透明度为1*/  
+}  
+@-webkit-keyframes fade-in {/*针对webkit内核*/  
+    0% {opacity: 0;}  
+    40% {opacity: 0;}  
+    100% {opacity: 1;}  
+} 
+.Enter{
+	cursor:pointer;
+}
+.enter{
+	animation: fade-in;/*动画名称*/  
+    animation-duration: 2s;/*动画持续时间*/  
+    -webkit-animation:fade-in 2s;/*针对webkit内核*/  
+    position: absolute;
+	right:700px;
+	bottom:200px; 
+
+}
+.enter:hover{
+    transform:scale(1.1,1.1);
+	transition:1s;
+}
+.bird{
+	animation: fade-in;/*动画名称*/  
+    animation-duration: 1.5s;/*动画持续时间*/  
+    -webkit-animation:fade-in 1.5s;/*针对webkit内核*/  
+	position:absolute;
+	bottom:-20px;
+	right:250px; 
+}
+.bird:hover{
+	transform:scale(1.1);
+	transition:1s; 
+}
+.enter01{
+	display:none;
+	width:280px;
+	position: absolute;
+	right:660px;
+	bottom:60px;
+	font-family:方正姚体;
+	font-size:27px;
+	text-align: center;
+    color: white;
+    text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+	
+}
+.Enter:hover .enter01{
+	display:block; 
+}
+
